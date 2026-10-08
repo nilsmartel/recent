@@ -5,7 +5,7 @@ use structopt::StructOpt;
 use walkdir::WalkDir;
 
 #[derive(StructOpt)]
-#[structopt(name = "recent", about = "A tool to find recent files")]
+#[structopt(name = "recent", about = "A tool to find most recently modified files")]
 struct Options {
     /// Number of files to show
     #[structopt(short)]
